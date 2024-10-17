@@ -1,0 +1,158 @@
+/* AddFacebook.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.facebook-logo {
+    margin-bottom: 32px;
+}
+
+.facebook-logo h1 {
+    color: #1877f2;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2 {
+    font-size: 24px;
+    line-height: 28px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 32px;
+    font-weight: normal;
+}
+
+.login-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 396px;
+}
+
+.message {
+    background-color: #e7f3ff;
+    color: #1877f2;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.login-button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #166fe5;
+}
+
+.forgot-password {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.forgot-password a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #dadde1;
+    margin: 20px 0;
+}
+
+.create-account {
+    text-align: center;
+}
+
+.create-button {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-button:hover {
+    background-color: #36a420;
+}
+
+.create-page {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content h2 {
+        width: 90%;
+        padding: 0 16px;
+    }
+
+    .login-card {
+        width: 90%;
+        margin: 0 16px;
+    }
+}
