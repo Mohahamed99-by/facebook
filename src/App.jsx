@@ -8,7 +8,7 @@ function App() {
   return (
     <>
   
-      <AddFacebook />
+      <AddFacebook  basename="/facebook"/>
     </>
   )
 }
